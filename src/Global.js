@@ -8,10 +8,7 @@ const initial={
         {id: 3, text:'blue', amount:500}
     ]
 } 
-
-
 export const hy=createContext(initial);
-
 export const Global = ({ children }) => {
  //const [state, setstate] = useState(initial)
  
