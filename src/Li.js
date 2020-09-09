@@ -28,7 +28,7 @@ const newtrans={
             <br />
             <br />
             <label>Cherity Amount:   
-            <input name="firstAmount" placeholder="Amount" value={firstamount} onChange={(e) => setFirstamount(e.target.value)} />
+            <input type="number" placeholder="Amount" value={firstamount} onChange={(e) => setFirstamount(e.target.value)} />
             </label>
             <button onClick={onsubmit} >add transsection</button>
             </form>
