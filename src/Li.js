@@ -12,8 +12,8 @@ export const Li = () => {
 
 const newtrans={
            id: Math.floor(Math.random()*100000000),
-            firstName:firstName,
-            firstamount: +firstamount
+            text:firstName,
+            amount: +firstamount
         }    
     addtrans(newtrans);
    } 
