@@ -4,8 +4,8 @@ import {hy} from './Global'
 export const Li = () => {
      
     const {addtrans}= useContext(hy);
-    const [firstName, setFirstName] = useState('hye');
-    const [firstamount, setFirstamount] = useState(0);
+    const [firstName, setFirstName] = useState('');
+    const [firstamount, setFirstamount] = useState();
 
    const onsubmit = e=>{
       e.preventDefault();
