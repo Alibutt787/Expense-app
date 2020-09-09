@@ -6,7 +6,7 @@ import {Tran} from './Tran'
 export const Total = () => {
     const {trans}= useContext(hy);
    const df=trans.map(trans=>trans.amount);
-   const tg=df.reduce((acc,item)=>(acc=acc+item));
+   const tg=df.reduce((acc,item)=>(acc=acc+item),0);
          
        
 return (
