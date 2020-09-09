@@ -1,12 +1,15 @@
 import React, { createContext ,useReducer} from 'react'
 import Apreducer from './Apreducer'
 
-const initial={
+/*const initial={
     trans:[
         {id: 1, text:'flower', amount:200},
         {id: 2 ,text:'red' ,amount:100},
         {id: 3, text:'blue', amount:500}
     ]
+} */
+const initial={
+    trans:[]
 } 
 export const hy=createContext(initial);
 export const Global = ({ children }) => {
