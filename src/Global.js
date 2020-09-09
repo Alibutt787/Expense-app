@@ -9,7 +9,7 @@ import Apreducer from './Apreducer'
     ]
 } */
 const initial={
-    trans:[]
+    trans:[{id: 3, text:'blue', amount:500}]
 } 
 export const hy=createContext(initial);
 export const Global = ({ children }) => {
